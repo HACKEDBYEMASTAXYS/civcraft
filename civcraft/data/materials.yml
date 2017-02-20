@@ -138,18 +138,24 @@ materials:
                 data: 5
                 count: 9
 
-# Replaced with gold block
-#        - id: 'mat_refined_gold'
-#          item_id: 147
+# Replaced with food for cottages
+#        - id: 'mat_food'
+#          item_id: 393
 #          item_data: 0
-#          name: 'Refined Gold'
+#          name: 'Food for cottages'
 #          craftable: true
 #          shaped: false
-#          category: '<lightgreen>Tier 1 Materials'
+#          category: '<red>Food'
 #          ingredients:
-#              - type_id: 266
+#              - type_id: 293
 #                data: 0
-#                count: 9
+#                count: 1
+               - type_id: 391
+                 data: 0
+                 count: 1
+               - type_id: 392
+                 data: 0 
+                 count: 1
 
         # Checked 10/8/13
         - id: 'mat_refined_feathers'
