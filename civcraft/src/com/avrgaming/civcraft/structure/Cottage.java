@@ -305,8 +305,8 @@ public class Cottage extends Structure {
 	public void onDestroy() {
 		super.onDestroy();
 		
-		getConsumeComponent().setLevel(1);
-		getConsumeComponent().setCount(0);
+		getConsumeComponent().setLevel(getLevel());
+		getConsumeComponent().setCount(1);
 		getConsumeComponent().onSave();
 	}
 }
